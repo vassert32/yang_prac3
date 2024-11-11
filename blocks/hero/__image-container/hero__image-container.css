@@ -1,0 +1,22 @@
+.hero__image-container {
+  position: relative;
+}
+
+.hero__image-container::after {
+  content: "ваша полка — верхняя";
+  position: absolute;
+  z-index: 10;
+  bottom: -22px;
+  left: 0;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__image-container::after {
+    left: 24px;
+  }
+}

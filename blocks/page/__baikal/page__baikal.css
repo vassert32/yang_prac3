@@ -1,0 +1,15 @@
+.page__baikal {
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__baikal {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page__baikal {
+    margin-bottom: 64px;
+  }
+}

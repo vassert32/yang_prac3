@@ -1,0 +1,32 @@
+.place__picture {
+  width: 460px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__picture {
+    width: 440px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .place__picture {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__picture {
+    width: 340px;
+    margin-right: 28px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .place__picture {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.info {
+  width: 77%;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    width: 90%;
+  }
+}

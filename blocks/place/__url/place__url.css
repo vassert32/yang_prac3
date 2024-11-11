@@ -1,0 +1,12 @@
+.place__url {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 700px) {
+  .place__url {
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

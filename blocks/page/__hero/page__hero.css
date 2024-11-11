@@ -1,0 +1,15 @@
+.page__hero {
+  margin: 0 auto 114px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__hero {
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page__hero {
+    margin-bottom: 86px;
+  }
+}

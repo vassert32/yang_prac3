@@ -1,0 +1,38 @@
+.hero__subtitle {
+  max-width: 560px;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero__subtitle {
+    max-width: 65%;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero__subtitle {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero__subtitle {
+    font-size: 16px;
+  }
+}

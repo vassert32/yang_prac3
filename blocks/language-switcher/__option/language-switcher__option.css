@@ -1,0 +1,42 @@
+.language-switcher__option {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 300;
+  color: #fff;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 18px;
+}
+
+.language-switcher__option::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all .2s;
+  transform: translate(-50%);
+}
+
+.language-switcher__option_active::after {
+  width: 100%;
+}
+
+.language-switcher__option:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .language-switcher__option {
+    font-size: 18px;
+  }
+
+  .language-switcher__option::after {
+    height: 1px;
+  }
+}
